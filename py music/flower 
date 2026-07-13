@@ -1,0 +1,23 @@
+function Draw() {
+
+frames += .3;
+
+Ctx.clearRect(-Cw, Ch, 2 CW, 2 Ch);
+
+frames rad; t rx Rx Math.abs(Math.cos(t)) + 50;
+
+ry Ry Math.abs(Math.sin(t)) + 50;
+
+X CXrx Math.sin(kxt Math.PI / 2); ycyry Math.sin(kyt Math.PI / 2);
+
+x1 cx+rx Math.sin(kxt + Math.PI); y1 cyry Math.sin(ky t+ Math.PI);
+
+x2 cx rx Math.sin(kx *t); y2 cyry Math.sin(ky*t);
+
+ctx.beginPath();
+
+ctx.moveTo(x, y);
+
+ctx.quadratic CurveTo(x1, y1, x2, y2);
+
+ctx.stroke(); ctx.globalCompositeOperation = "lighter"
